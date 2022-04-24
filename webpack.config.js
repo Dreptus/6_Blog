@@ -1,5 +1,6 @@
 const path = require ('path');
 const HtmlWebpackPlugin = require ('html-webpack-plugin');
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 const BundleAnalyzerPlugin = require ('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin;
 
@@ -25,6 +26,7 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
   },
+  
   module: {
     rules: [
       {

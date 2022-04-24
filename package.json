@@ -25,6 +25,8 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "util": "^0.12.4"
   }
 }

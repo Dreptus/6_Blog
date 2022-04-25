@@ -130,7 +130,7 @@ function generateTags () {
     /* [DONE] get tags from data-tags attribute */
     const articleTags = article.getAttribute ('data-tags');
     /* [DONE[ split tags into array */
-    const articleTagsArray = articleTags.split (' ');
+    const articleTagsArray = articleTags.split(' ');
     /* [DONE] START LOOP: for each tag */
     for (let tag of articleTagsArray) {
       /* [DONE] generate HTML of the link */
